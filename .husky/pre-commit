@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "Running pre-commit hooks"
+
 echo "Running lint-staged"
 npx lint-staged
 

@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "cypress": "cypress open",
-    "cypress:headless": "cypress run"
+    "cypress:headless": "cypress run",
+    "prepare": "husky"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.10.0",
